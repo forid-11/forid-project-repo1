@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-color: #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    margin-bottom: 130px;
+}
+
+/* header and navigation style start here */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.color-orange {
+    color: orangered;
+}
+
+.btn-primary {
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+
+/* banner styles area */
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 100px 0 200px;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    font-weight: 600;
+    font-size: 85px;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.fa-download {
+    color: white;
+}
+
+.sub-btn {
+    border: 2px solid orangered;
+    border-radius: 5px;
+    height: 50px;
+    color: orangered;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 20px;
+    margin-left: 20px;
+}
+
+.fa-phone {
+    color: orangered;
+}
+
+/* main section styles */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles start here */
+
+.about {
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-bottom: 130px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-desceiption {
+    font-weight: 6oo;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* what i do styles start here */
+
+.what-i-do {
+    margin-bottom: 130px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 25px;
+}
+
+.skill {
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.skill-title {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* Resume section styles start here */
+
+.resume {
+    margin-bottom: 130px;
+}
+
+.resume-contant {
+    display: flex;
+    gap: 25px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.resume-item {
+    margin: 30px 0;
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
+
+.resume-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* contact section styles start here */
+
+.contact {
+    background-color: #FFF8F3;
+}
+
+.contact-area {
+    display: flex;
+    padding: 100px 300px 100px 200px;
+}
+
+.contact-title {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-description {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#text {
+    border: none;
+    color: #757575;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#email {
+    border: none;
+    color: #757575;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#text-area {
+    border: none;
+    color: #757575;
+    height: 100px;
+    width: 400px;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#btn {
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: orangered;
+    border-radius: 7px;
+    padding: 10px 30px;
+    text-align: left;
+}
+
+.form-area {
+    margin-left: 150px;
+}
